@@ -1,0 +1,213 @@
+package java_assignment_test;
+
+import java.util.*;
+
+public class Java_Assignment_Test {
+
+    static class Student {
+
+        String id;
+        String name;
+        int birthYear;
+        double gpa;
+        List<String> subjects;
+
+        public Student(String id, String name, int birthYear, double gpa, List<String> subjects) {
+            this.id = id;
+            this.name = name;
+            this.birthYear = birthYear;
+            this.gpa = gpa;
+            this.subjects = subjects;
+        }
+
+        @Override
+        public String toString() {
+            return "ID: " + id + ", Name: " + name + ", Birth Year: " + birthYear + ", GPA: " + gpa + ", Subjects: " + subjects;
+        }
+    }
+
+    public static class StudentManager {
+
+        private List<Student> students = new ArrayList<>();
+        private Scanner scanner = new Scanner(System.in);
+
+        public void addStudent() {
+            System.out.print("Enter ID: ");
+            String id = scanner.next();
+            
+            // Kiểm tra ID trùng
+            for (Student s : students) {
+                if (s.id.equals(id)) {
+                    System.out.println("Error: ID already exists!");
+                    return;
+                }
+            }
+
+            System.out.print("Enter Name: ");
+            scanner.nextLine(); 
+            String name = scanner.nextLine();
+
+            // Kiểm tra năm sinh hợp lệ
+            int birthYear;
+            int currentYear = Calendar.getInstance().get(Calendar.YEAR);
+            do {
+                System.out.print("Enter Birth Year (1900 - " + currentYear + "): ");
+                while (!scanner.hasNextInt()) {
+                    System.out.println("Invalid input! Please enter a valid year.");
+                    scanner.next();
+                }
+                birthYear = scanner.nextInt();
+            } while (birthYear < 1900 || birthYear > currentYear);
+
+            // Kiểm tra GPA hợp lệ
+            double gpa;
+            do {
+                System.out.print("Enter GPA (0.0 - 4.0): ");
+                while (!scanner.hasNextDouble()) {
+                    System.out.println("Invalid input! Please enter a valid GPA.");
+                    scanner.next();
+                }
+                gpa = scanner.nextDouble();
+            } while (gpa < 0.0 || gpa > 4.0);
+            
+            scanner.nextLine(); 
+            System.out.print("Enter Subjects (comma separated): ");
+            List<String> subjects = new ArrayList<>(Arrays.asList(scanner.nextLine().split(",")));
+
+            students.add(new Student(id, name, birthYear, gpa, subjects));
+        }
+
+        public void printStudents() {
+            if (students.isEmpty()) {
+                System.out.println("No students in the list.");
+                return;
+            }
+            for (Student s : students) {
+                System.out.println(s);
+            }
+        }
+
+        public void updateStudent() {
+            System.out.print("Enter ID to update: ");
+            String id = scanner.next();
+            for (Student s : students) {
+                if (s.id.equals(id)) {
+                    System.out.print("Enter New Name: ");
+                    scanner.nextLine();
+                    s.name = scanner.nextLine();
+
+                    // Kiểm tra GPA hợp lệ
+                    double newGpa;
+                    do {
+                        System.out.print("Enter New GPA (0.0 - 4.0): ");
+                        while (!scanner.hasNextDouble()) {
+                            System.out.println("Invalid input! Please enter a valid GPA.");
+                            scanner.next();
+                        }
+                        newGpa = scanner.nextDouble();
+                    } while (newGpa < 0.0 || newGpa > 4.0);
+                    
+                    s.gpa = newGpa;
+                    System.out.println("Student updated successfully.");
+                    return;
+                }
+            }
+            System.out.println("Student not found!");
+        }
+
+        public void deleteStudent() {
+            System.out.print("Enter ID to delete: ");
+            String id = scanner.next();
+            boolean removed = students.removeIf(s -> s.id.equals(id));
+            if (removed) {
+                System.out.println("Student deleted successfully.");
+            } else {
+                System.out.println("Student not found!");
+            }
+        }
+
+        public void findStudentById() {
+            System.out.print("Enter ID to search: ");
+            String id = scanner.next();
+            for (Student s : students) {
+                if (s.id.equals(id)) {
+                    System.out.println(s);
+                    return;
+                }
+            }
+            System.out.println("Student not found!");
+        }
+
+        public void findStudentByName() {
+            System.out.print("Enter Name to search: ");
+            scanner.nextLine();
+            String name = scanner.nextLine();
+            boolean found = false;
+            for (Student s : students) {
+                if (s.name.equalsIgnoreCase(name)) {
+                    System.out.println(s);
+                    found = true;
+                }
+            }
+            if (!found) {
+                System.out.println("Student not found!");
+            }
+        }
+
+        public void sortStudentsByGPA() {
+            students.sort((s1, s2) -> Double.compare(s2.gpa, s1.gpa)); // Sắp xếp giảm dần
+            System.out.println("Sorted by GPA!");
+        }
+    }
+
+    public static void main(String[] args) {
+        StudentManager manager = new StudentManager();
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            System.out.println("\n1. Add Student\n2. Print Students\n3. Update Student\n4. Delete Student\n5. Find by ID\n6. Find by Name\n7. Sort by GPA\n8. Exit");
+            int choice;
+
+            // Kiểm tra input số hợp lệ
+            while (true) {
+                System.out.print("Choose an option: ");
+                if (scanner.hasNextInt()) {
+                    choice = scanner.nextInt();
+                    break;
+                } else {
+                    System.out.println("Invalid input! Please enter a number.");
+                    scanner.next();
+                }
+            }
+
+            switch (choice) {
+                case 1:
+                    manager.addStudent();
+                    break;
+                case 2:
+                    manager.printStudents();
+                    break;
+                case 3:
+                    manager.updateStudent();
+                    break;
+                case 4:
+                    manager.deleteStudent();
+                    break;
+                case 5:
+                    manager.findStudentById();
+                    break;
+                case 6:
+                    manager.findStudentByName();
+                    break;
+                case 7:
+                    manager.sortStudentsByGPA();
+                    break;
+                case 8:
+                    System.out.println("Exiting program...");
+                    scanner.close();
+                    System.exit(0);
+                default:
+                    System.out.println("Invalid choice!");
+            }
+        }
+    }
+}
