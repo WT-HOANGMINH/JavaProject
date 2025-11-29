@@ -1,0 +1,675 @@
+=======================================
+KET QUA TEST CASE CHO CHUC NANG FN1
+=======================================
+TestCase | A | B | C | D | Expected | Actual | PASS/FAIL
+1 |  | 1 | 2 | 3 | normalized | {"a":null,"b":1,"c":2,"d":3,"errors":["a empty"]} | PASS
+2 |  | 1 | 2 | 3 | normalized | {"a":null,"b":1,"c":2,"d":3,"errors":["a empty"]} | PASS
+3 |  | 1 | 2 | 3 | normalized | {"a":null,"b":1,"c":2,"d":3,"errors":["a empty"]} | PASS
+4 |  | 1 | 2 | 3 | normalized | {"a":null,"b":1,"c":2,"d":3,"errors":["a empty"]} | PASS
+5 |  | 1 | 2 | 3 | normalized | {"a":null,"b":1,"c":2,"d":3,"errors":["a empty"]} | PASS
+6 |  | 1 | 2 | 3 | normalized | {"a":null,"b":1,"c":2,"d":3,"errors":["a empty"]} | PASS
+7 |  | 1 | 2 | 3 | normalized | {"a":null,"b":1,"c":2,"d":3,"errors":["a empty"]} | PASS
+8 |  | 1 | 2 | 3 | normalized | {"a":null,"b":1,"c":2,"d":3,"errors":["a empty"]} | PASS
+9 |  | 1 | 2 | 3 | normalized | {"a":null,"b":1,"c":2,"d":3,"errors":["a empty"]} | PASS
+10 |  | 1 | 2 | 3 | normalized | {"a":null,"b":1,"c":2,"d":3,"errors":["a empty"]} | PASS
+11 | 1e3 | 2 | 3 | -4 | normalized | {"a":1000,"b":2,"c":3,"d":-4,"errors":[]} | PASS
+12 | 1e3 | 2 | 3 | -4 | normalized | {"a":1000,"b":2,"c":3,"d":-4,"errors":[]} | PASS
+13 | 1e3 | 2 | 3 | -4 | normalized | {"a":1000,"b":2,"c":3,"d":-4,"errors":[]} | PASS
+14 | 1e3 | 2 | 3 | -4 | normalized | {"a":1000,"b":2,"c":3,"d":-4,"errors":[]} | PASS
+15 | 1e3 | 2 | 3 | -4 | normalized | {"a":1000,"b":2,"c":3,"d":-4,"errors":[]} | PASS
+16 | 1e3 | 2 | 3 | -4 | normalized | {"a":1000,"b":2,"c":3,"d":-4,"errors":[]} | PASS
+17 | 1e3 | 2 | 3 | -4 | normalized | {"a":1000,"b":2,"c":3,"d":-4,"errors":[]} | PASS
+18 | 1e3 | 2 | 3 | -4 | normalized | {"a":1000,"b":2,"c":3,"d":-4,"errors":[]} | PASS
+19 | 1e3 | 2 | 3 | -4 | normalized | {"a":1000,"b":2,"c":3,"d":-4,"errors":[]} | PASS
+20 | 1e3 | 2 | 3 | -4 | normalized | {"a":1000,"b":2,"c":3,"d":-4,"errors":[]} | PASS
+21 | abc | 2 | 3 | 4 | normalized | {"a":null,"b":2,"c":3,"d":4,"errors":["a NaN"]} | PASS
+22 | abc | 2 | 3 | 4 | normalized | {"a":null,"b":2,"c":3,"d":4,"errors":["a NaN"]} | PASS
+23 | abc | 2 | 3 | 4 | normalized | {"a":null,"b":2,"c":3,"d":4,"errors":["a NaN"]} | PASS
+24 | abc | 2 | 3 | 4 | normalized | {"a":null,"b":2,"c":3,"d":4,"errors":["a NaN"]} | PASS
+25 | abc | 2 | 3 | 4 | normalized | {"a":null,"b":2,"c":3,"d":4,"errors":["a NaN"]} | PASS
+26 | abc | 2 | 3 | 4 | normalized | {"a":null,"b":2,"c":3,"d":4,"errors":["a NaN"]} | PASS
+27 | abc | 2 | 3 | 4 | normalized | {"a":null,"b":2,"c":3,"d":4,"errors":["a NaN"]} | PASS
+28 | abc | 2 | 3 | 4 | normalized | {"a":null,"b":2,"c":3,"d":4,"errors":["a NaN"]} | PASS
+29 | abc | 2 | 3 | 4 | normalized | {"a":null,"b":2,"c":3,"d":4,"errors":["a NaN"]} | PASS
+30 | abc | 2 | 3 | 4 | normalized | {"a":null,"b":2,"c":3,"d":4,"errors":["a NaN"]} | PASS
+31 | 1 |  | 3 | 4 | normalized | {"a":1,"b":null,"c":3,"d":4,"errors":["b empty"]} | PASS
+32 | 1 |  | 3 | 4 | normalized | {"a":1,"b":null,"c":3,"d":4,"errors":["b empty"]} | PASS
+33 | 1 |  | 3 | 4 | normalized | {"a":1,"b":null,"c":3,"d":4,"errors":["b empty"]} | PASS
+34 | 1 |  | 3 | 4 | normalized | {"a":1,"b":null,"c":3,"d":4,"errors":["b empty"]} | PASS
+35 | 1 |  | 3 | 4 | normalized | {"a":1,"b":null,"c":3,"d":4,"errors":["b empty"]} | PASS
+36 | 1 |  | 3 | 4 | normalized | {"a":1,"b":null,"c":3,"d":4,"errors":["b empty"]} | PASS
+37 | 1 |  | 3 | 4 | normalized | {"a":1,"b":null,"c":3,"d":4,"errors":["b empty"]} | PASS
+38 | 1 |  | 3 | 4 | normalized | {"a":1,"b":null,"c":3,"d":4,"errors":["b empty"]} | PASS
+39 | 1 |  | 3 | 4 | normalized | {"a":1,"b":null,"c":3,"d":4,"errors":["b empty"]} | PASS
+40 | 1 |  | 3 | 4 | normalized | {"a":1,"b":null,"c":3,"d":4,"errors":["b empty"]} | PASS
+41 | 0 | 0 | 0 | 0 | normalized | {"a":0,"b":0,"c":0,"d":0,"errors":[]} | PASS
+42 | 0 | 0 | 0 | 0 | normalized | {"a":0,"b":0,"c":0,"d":0,"errors":[]} | PASS
+43 | 0 | 0 | 0 | 0 | normalized | {"a":0,"b":0,"c":0,"d":0,"errors":[]} | PASS
+44 | 0 | 0 | 0 | 0 | normalized | {"a":0,"b":0,"c":0,"d":0,"errors":[]} | PASS
+45 | 0 | 0 | 0 | 0 | normalized | {"a":0,"b":0,"c":0,"d":0,"errors":[]} | PASS
+46 | 0 | 0 | 0 | 0 | normalized | {"a":0,"b":0,"c":0,"d":0,"errors":[]} | PASS
+47 | 0 | 0 | 0 | 0 | normalized | {"a":0,"b":0,"c":0,"d":0,"errors":[]} | PASS
+48 | 0 | 0 | 0 | 0 | normalized | {"a":0,"b":0,"c":0,"d":0,"errors":[]} | PASS
+49 | 0 | 0 | 0 | 0 | normalized | {"a":0,"b":0,"c":0,"d":0,"errors":[]} | PASS
+50 | 0 | 0 | 0 | 0 | normalized | {"a":0,"b":0,"c":0,"d":0,"errors":[]} | PASS
+51 | 1.0000000000000001 | 2 | 3 | 4 | normalized | {"a":1,"b":2,"c":3,"d":4,"errors":[]} | PASS
+52 | 1.0000000000000001 | 2 | 3 | 4 | normalized | {"a":1,"b":2,"c":3,"d":4,"errors":[]} | PASS
+53 | 1.0000000000000001 | 2 | 3 | 4 | normalized | {"a":1,"b":2,"c":3,"d":4,"errors":[]} | PASS
+54 | 1.0000000000000001 | 2 | 3 | 4 | normalized | {"a":1,"b":2,"c":3,"d":4,"errors":[]} | PASS
+55 | 1.0000000000000001 | 2 | 3 | 4 | normalized | {"a":1,"b":2,"c":3,"d":4,"errors":[]} | PASS
+56 | 1.0000000000000001 | 2 | 3 | 4 | normalized | {"a":1,"b":2,"c":3,"d":4,"errors":[]} | PASS
+57 | 1.0000000000000001 | 2 | 3 | 4 | normalized | {"a":1,"b":2,"c":3,"d":4,"errors":[]} | PASS
+58 | 1.0000000000000001 | 2 | 3 | 4 | normalized | {"a":1,"b":2,"c":3,"d":4,"errors":[]} | PASS
+59 | 1.0000000000000001 | 2 | 3 | 4 | normalized | {"a":1,"b":2,"c":3,"d":4,"errors":[]} | PASS
+60 | 1.0000000000000001 | 2 | 3 | 4 | normalized | {"a":1,"b":2,"c":3,"d":4,"errors":[]} | PASS
+61 | 1e100 | 1e-100 | 0 | -1 | normalized | {"a":1e+100,"b":1e-100,"c":0,"d":-1,"errors":[]} | PASS
+62 | 1e100 | 1e-100 | 0 | -1 | normalized | {"a":1e+100,"b":1e-100,"c":0,"d":-1,"errors":[]} | PASS
+63 | 1e100 | 1e-100 | 0 | -1 | normalized | {"a":1e+100,"b":1e-100,"c":0,"d":-1,"errors":[]} | PASS
+64 | 1e100 | 1e-100 | 0 | -1 | normalized | {"a":1e+100,"b":1e-100,"c":0,"d":-1,"errors":[]} | PASS
+65 | 1e100 | 1e-100 | 0 | -1 | normalized | {"a":1e+100,"b":1e-100,"c":0,"d":-1,"errors":[]} | PASS
+66 | 1e100 | 1e-100 | 0 | -1 | normalized | {"a":1e+100,"b":1e-100,"c":0,"d":-1,"errors":[]} | PASS
+67 | 1e100 | 1e-100 | 0 | -1 | normalized | {"a":1e+100,"b":1e-100,"c":0,"d":-1,"errors":[]} | PASS
+68 | 1e100 | 1e-100 | 0 | -1 | normalized | {"a":1e+100,"b":1e-100,"c":0,"d":-1,"errors":[]} | PASS
+69 | 1e100 | 1e-100 | 0 | -1 | normalized | {"a":1e+100,"b":1e-100,"c":0,"d":-1,"errors":[]} | PASS
+70 | 1e100 | 1e-100 | 0 | -1 | normalized | {"a":1e+100,"b":1e-100,"c":0,"d":-1,"errors":[]} | PASS
+
+=======================================
+KET QUA TEST CASE CHO CHUC NANG FN2
+=======================================
+TestCase | A | B | C | D | Expected | Actual | PASS/FAIL
+71 | 0 | 1 | 2 | 3 | a invalid | a == 0 | FAIL
+72 | -2.9 | 1 | 2 | 3 | ok | ok | PASS
+73 | -2.8 | 1 | 2 | 3 | ok | ok | PASS
+74 | abc | 1 | 2 | 3 | a invalid | a NaN | FAIL
+75 | -2.6 | 1 | 2 | 3 | ok | ok | PASS
+76 |  | 1 | 2 | 3 | a invalid | a empty | FAIL
+77 | abc | 1 | 2 | 3 | a invalid | a NaN | FAIL
+78 | 0 | 1 | 2 | 3 | a invalid | a == 0 | FAIL
+79 | -2.2 | 1 | 2 | 3 | ok | ok | PASS
+80 | abc | 1 | 2 | 3 | a invalid | a NaN | FAIL
+81 |  | 1 | 2 | 3 | a invalid | a empty | FAIL
+82 | -1.9 | 1 | 2 | 3 | ok | ok | PASS
+83 | abc | 1 | 2 | 3 | a invalid | a NaN | FAIL
+84 | -1.7 | 1 | 2 | 3 | ok | ok | PASS
+85 | 0 | 1 | 2 | 3 | a invalid | a == 0 | FAIL
+86 |  | 1 | 2 | 3 | a invalid | a empty | FAIL
+87 | -1.4 | 1 | 2 | 3 | ok | ok | PASS
+88 | -1.3 | 1 | 2 | 3 | ok | ok | PASS
+89 | abc | 1 | 2 | 3 | a invalid | a NaN | FAIL
+90 | -1.1 | 1 | 2 | 3 | ok | ok | PASS
+91 |  | 1 | 2 | 3 | a invalid | a empty | FAIL
+92 | 0 | 1 | 2 | 3 | a invalid | a == 0 | FAIL
+93 | -0.8 | 1 | 2 | 3 | ok | ok | PASS
+94 | -0.7 | 1 | 2 | 3 | ok | ok | PASS
+95 | abc | 1 | 2 | 3 | a invalid | a NaN | FAIL
+96 |  | 1 | 2 | 3 | a invalid | a empty | FAIL
+97 | -0.4 | 1 | 2 | 3 | ok | ok | PASS
+98 | abc | 1 | 2 | 3 | a invalid | a NaN | FAIL
+99 | 0 | 1 | 2 | 3 | a invalid | a == 0 | FAIL
+100 | -0.1 | 1 | 2 | 3 | ok | ok | PASS
+101 |  | 1 | 2 | 3 | a invalid | a empty | FAIL
+102 | 0.1 | 1 | 2 | 3 | ok | ok | PASS
+103 | 0.2 | 1 | 2 | 3 | ok | ok | PASS
+104 | abc | 1 | 2 | 3 | a invalid | a NaN | FAIL
+105 | 0.4 | 1 | 2 | 3 | ok | ok | PASS
+106 | 0 | 1 | 2 | 3 | a invalid | a == 0 | FAIL
+107 | abc | 1 | 2 | 3 | a invalid | a NaN | FAIL
+108 | 0.7 | 1 | 2 | 3 | ok | ok | PASS
+109 | 0.8 | 1 | 2 | 3 | ok | ok | PASS
+110 | abc | 1 | 2 | 3 | a invalid | a NaN | FAIL
+111 |  | 1 | 2 | 3 | a invalid | a empty | FAIL
+112 | 1.1 | 1 | 2 | 3 | ok | ok | PASS
+113 | 0 | 1 | 2 | 3 | a invalid | a == 0 | FAIL
+114 | 1.3 | 1 | 2 | 3 | ok | ok | PASS
+115 | 1.4 | 1 | 2 | 3 | ok | ok | PASS
+116 |  | 1 | 2 | 3 | a invalid | a empty | FAIL
+117 | 1.6 | 1 | 2 | 3 | ok | ok | PASS
+118 | 1.7 | 1 | 2 | 3 | ok | ok | PASS
+119 | abc | 1 | 2 | 3 | a invalid | a NaN | FAIL
+120 | 0 | 1 | 2 | 3 | a invalid | a == 0 | FAIL
+121 |  | 1 | 2 | 3 | a invalid | a empty | FAIL
+122 | abc | 1 | 2 | 3 | a invalid | a NaN | FAIL
+123 | 2.2 | 1 | 2 | 3 | ok | ok | PASS
+124 | 2.3 | 1 | 2 | 3 | ok | ok | PASS
+125 | abc | 1 | 2 | 3 | a invalid | a NaN | FAIL
+126 |  | 1 | 2 | 3 | a invalid | a empty | FAIL
+127 | 0 | 1 | 2 | 3 | a invalid | a == 0 | FAIL
+128 | abc | 1 | 2 | 3 | a invalid | a NaN | FAIL
+129 | 2.8 | 1 | 2 | 3 | ok | ok | PASS
+130 | 2.9 | 1 | 2 | 3 | ok | ok | PASS
+131 |  | 1 | 2 | 3 | a invalid | a empty | FAIL
+132 | 3.1 | 1 | 2 | 3 | ok | ok | PASS
+133 | 3.2 | 1 | 2 | 3 | ok | ok | PASS
+134 | 0 | 1 | 2 | 3 | a invalid | a == 0 | FAIL
+135 | 3.4 | 1 | 2 | 3 | ok | ok | PASS
+136 |  | 1 | 2 | 3 | a invalid | a empty | FAIL
+137 | abc | 1 | 2 | 3 | a invalid | a NaN | FAIL
+138 | 3.7 | 1 | 2 | 3 | ok | ok | PASS
+139 | 3.8 | 1 | 2 | 3 | ok | ok | PASS
+140 | abc | 1 | 2 | 3 | a invalid | a NaN | FAIL
+
+=======================================
+KET QUA TEST CASE CHO CHUC NANG FN3
+=======================================
+TestCase | A | B | C | D | Expected | Actual | PASS/FAIL
+141 |  |  |  |  | missing | some empty | FAIL
+142 | 1 | 2 | 3 | 4 | ok | ok | PASS
+143 | 1 | 2 | 3 | 4 | ok | ok | PASS
+144 | 1 | 2 | 3 | 4 | ok | ok | PASS
+145 |  | 2 | 3 | 4 | missing | some empty | FAIL
+146 | 1 |  | 3 | 4 | missing | some empty | FAIL
+147 | 1 | 2 |  | 4 | missing | some empty | FAIL
+148 | 1 | 2 | 3 |  | missing | some empty | FAIL
+149 |  | 2 | 3 | 4 | missing | some empty | FAIL
+150 | 1 | 2 | 3 | 4 | ok | ok | PASS
+151 | 1 |  | 3 | 4 | missing | some empty | FAIL
+152 | 1 | 2 | 3 | 4 | ok | ok | PASS
+153 |  | 2 |  | 4 | missing | some empty | FAIL
+154 | 1 | 2 | 3 | 4 | ok | ok | PASS
+155 | 1 | 2 | 3 |  | missing | some empty | FAIL
+156 | 1 |  | 3 | 4 | missing | some empty | FAIL
+157 |  | 2 | 3 | 4 | missing | some empty | FAIL
+158 | 1 | 2 | 3 | 4 | ok | ok | PASS
+159 | 1 | 2 |  | 4 | missing | some empty | FAIL
+160 | 1 | 2 | 3 | 4 | ok | ok | PASS
+161 |  |  | 3 | 4 | missing | some empty | FAIL
+162 | 1 | 2 | 3 |  | missing | some empty | FAIL
+163 | 1 | 2 | 3 | 4 | ok | ok | PASS
+164 | 1 | 2 | 3 | 4 | ok | ok | PASS
+165 |  | 2 |  | 4 | missing | some empty | FAIL
+166 | 1 |  | 3 | 4 | missing | some empty | FAIL
+167 | 1 | 2 | 3 | 4 | ok | ok | PASS
+168 | 1 | 2 | 3 | 4 | ok | ok | PASS
+169 |  | 2 | 3 |  | missing | some empty | FAIL
+170 | 1 | 2 | 3 | 4 | ok | ok | PASS
+171 | 1 |  |  | 4 | missing | some empty | FAIL
+172 | 1 | 2 | 3 | 4 | ok | ok | PASS
+173 |  | 2 | 3 | 4 | missing | some empty | FAIL
+174 | 1 | 2 | 3 | 4 | ok | ok | PASS
+175 | 1 | 2 | 3 | 4 | ok | ok | PASS
+176 | 1 |  | 3 |  | missing | some empty | FAIL
+177 |  | 2 |  | 4 | missing | some empty | FAIL
+178 | 1 | 2 | 3 | 4 | ok | ok | PASS
+179 | 1 | 2 | 3 | 4 | ok | ok | PASS
+180 | 1 | 2 | 3 | 4 | ok | ok | PASS
+181 |  |  | 3 | 4 | missing | some empty | FAIL
+182 | 1 | 2 | 3 | 4 | ok | ok | PASS
+183 | 1 | 2 |  |  | missing | some empty | FAIL
+184 | 1 | 2 | 3 | 4 | ok | ok | PASS
+185 |  | 2 | 3 | 4 | missing | some empty | FAIL
+186 | 1 |  | 3 | 4 | missing | some empty | FAIL
+187 | 1 | 2 | 3 | 4 | ok | ok | PASS
+188 | 1 | 2 | 3 | 4 | ok | ok | PASS
+189 |  | 2 |  | 4 | missing | some empty | FAIL
+190 | 1 | 2 | 3 |  | missing | some empty | FAIL
+191 | 1 |  | 3 | 4 | missing | some empty | FAIL
+192 | 1 | 2 | 3 | 4 | ok | ok | PASS
+193 |  | 2 | 3 | 4 | missing | some empty | FAIL
+194 | 1 | 2 | 3 | 4 | ok | ok | PASS
+195 | 1 | 2 |  | 4 | missing | some empty | FAIL
+196 | 1 |  | 3 | 4 | missing | some empty | FAIL
+197 |  | 2 | 3 |  | missing | some empty | FAIL
+198 | 1 | 2 | 3 | 4 | ok | ok | PASS
+199 | 1 | 2 | 3 | 4 | ok | ok | PASS
+200 | 1 | 2 | 3 | 4 | ok | ok | PASS
+201 |  |  |  | 4 | missing | some empty | FAIL
+202 | 1 | 2 | 3 | 4 | ok | ok | PASS
+203 | 1 | 2 | 3 | 4 | ok | ok | PASS
+204 | 1 | 2 | 3 |  | missing | some empty | FAIL
+205 |  | 2 | 3 | 4 | missing | some empty | FAIL
+206 | 1 |  | 3 | 4 | missing | some empty | FAIL
+207 | 1 | 2 |  | 4 | missing | some empty | FAIL
+208 | 1 | 2 | 3 | 4 | ok | ok | PASS
+209 |  | 2 | 3 | 4 | missing | some empty | FAIL
+210 | 1 | 2 | 3 | 4 | ok | ok | PASS
+
+=======================================
+KET QUA TEST CASE CHO CHUC NANG FN4
+=======================================
+TestCase | A | B | C | D | Expected | Actual | PASS/FAIL
+211 | 1 | -2 | -2 | -5 | one | one | PASS
+212 | 2 | -4 | -1 | -4 | one | one | PASS
+213 | 3 | -6 | 0 | -3 | one | one | PASS
+214 | 4 | -8 | 1 | -2 | one | one | PASS
+215 | 5 | -10 | 2 | -1 | one | one | PASS
+216 | 6 | -12 | -2 | 0 | one | three | FAIL
+217 | 7 | -14 | -1 | 1 | one | three | FAIL
+218 | 8 | -2 | 0 | 2 | one | one | PASS
+219 | 9 | -4 | 1 | 3 | one | one | PASS
+220 | 1 | -6 | 2 | 4 | one | three | FAIL
+221 | 2 | -8 | -2 | 5 | one | three | FAIL
+222 | 3 | -10 | -1 | -5 | one | one | PASS
+223 | 4 | -12 | 0 | -4 | one | one | PASS
+224 | 5 | -14 | 1 | -3 | one | one | PASS
+225 | 6 | -2 | 2 | -2 | one | one | PASS
+226 | 7 | -4 | -2 | -1 | one | one | PASS
+227 | 8 | -6 | -1 | 0 | one | three | FAIL
+228 | 9 | -8 | 0 | 1 | one | one | PASS
+229 | 1 | -10 | 1 | 2 | one | three | FAIL
+230 | 2 | -12 | 2 | 3 | one | three | FAIL
+231 | 3 | -14 | -2 | 4 | one | three | FAIL
+232 | 4 | -2 | -1 | 5 | one | one | PASS
+233 | 5 | -4 | 0 | -5 | one | one | PASS
+234 | 6 | -6 | 1 | -4 | one | one | PASS
+235 | 7 | -8 | 2 | -3 | one | one | PASS
+236 | 8 | -10 | -2 | -2 | one | one | PASS
+237 | 9 | -12 | -1 | -1 | one | one | PASS
+238 | 1 | -14 | 0 | 0 | one | one | PASS
+239 | 2 | -2 | 1 | 1 | one | one | PASS
+240 | 3 | -4 | 2 | 2 | one | one | PASS
+241 | 4 | -6 | -2 | 3 | one | three | FAIL
+242 | 5 | -8 | -1 | 4 | one | three | FAIL
+243 | 6 | -10 | 0 | 5 | one | one | PASS
+244 | 7 | -12 | 1 | -5 | one | one | PASS
+245 | 8 | -14 | 2 | -4 | one | one | PASS
+246 | 9 | -2 | -2 | -3 | one | one | PASS
+247 | 1 | -4 | -1 | -2 | one | one | PASS
+248 | 2 | -6 | 0 | -1 | one | one | PASS
+249 | 3 | -8 | 1 | 0 | one | three | FAIL
+250 | 4 | -10 | 2 | 1 | one | three | FAIL
+251 | 5 | -12 | -2 | 2 | one | three | FAIL
+252 | 6 | -14 | -1 | 3 | one | three | FAIL
+253 | 7 | -2 | 0 | 4 | one | one | PASS
+254 | 8 | -4 | 1 | 5 | one | one | PASS
+255 | 9 | -6 | 2 | -5 | one | one | PASS
+256 | 1 | -8 | -2 | -4 | one | one | PASS
+257 | 2 | -10 | -1 | -3 | one | one | PASS
+258 | 3 | -12 | 0 | -2 | one | one | PASS
+259 | 4 | -14 | 1 | -1 | one | one | PASS
+260 | 5 | -2 | 2 | 0 | one | one | PASS
+261 | 6 | -4 | -2 | 1 | one | three | FAIL
+262 | 7 | -6 | -1 | 2 | one | one | PASS
+263 | 8 | -8 | 0 | 3 | one | one | PASS
+264 | 9 | -10 | 1 | 4 | one | one | PASS
+265 | 1 | -12 | 2 | 5 | one | three | FAIL
+266 | 2 | -14 | -2 | -5 | one | one | PASS
+267 | 3 | -2 | -1 | -4 | one | one | PASS
+268 | 4 | -4 | 0 | -3 | one | one | PASS
+269 | 5 | -6 | 1 | -2 | one | one | PASS
+270 | 6 | -8 | 2 | -1 | one | one | PASS
+271 | 7 | -10 | -2 | 0 | one | three | FAIL
+272 | 8 | -12 | -1 | 1 | one | three | FAIL
+273 | 9 | -14 | 0 | 2 | one | three | FAIL
+274 | 1 | -2 | 1 | 3 | one | one | PASS
+275 | 2 | -4 | 2 | 4 | one | one | PASS
+276 | 3 | -6 | -2 | 5 | one | three | FAIL
+277 | 4 | -8 | -1 | -5 | one | one | PASS
+278 | 5 | -10 | 0 | -4 | one | one | PASS
+279 | 6 | -12 | 1 | -3 | one | one | PASS
+280 | 7 | -14 | 2 | -2 | one | one | PASS
+
+=======================================
+KET QUA TEST CASE CHO CHUC NANG FN5
+=======================================
+TestCase | A | B | C | D | Expected | Actual | PASS/FAIL
+281 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+282 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+283 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+284 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+285 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+286 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+287 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+288 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+289 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+290 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+291 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+292 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+293 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+294 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+295 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+296 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+297 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+298 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+299 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+300 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+301 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+302 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+303 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+304 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+305 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+306 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+307 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+308 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+309 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+310 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+311 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+312 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+313 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+314 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+315 | 1 | -4 | 5 | -2 | double-or-triple | double | PASS
+316 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+317 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+318 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+319 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+320 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+321 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+322 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+323 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+324 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+325 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+326 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+327 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+328 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+329 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+330 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+331 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+332 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+333 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+334 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+335 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+336 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+337 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+338 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+339 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+340 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+341 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+342 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+343 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+344 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+345 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+346 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+347 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+348 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+349 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+350 | 1 | -3 | 3 | -1 | double-or-triple | double | PASS
+
+=======================================
+KET QUA TEST CASE CHO CHUC NANG FN6
+=======================================
+TestCase | A | B | C | D | Expected | Actual | PASS/FAIL
+351 | 1 | 10 | 31 | 30 | three | three | PASS
+352 | 1 | 7 | 14 | 8 | three | three | PASS
+353 | 1 | 4 | 3 | 0 | three | three | PASS
+354 | 1 | 1 | -2 | 0 | three | three | PASS
+355 | 1 | -2 | -1 | 2 | three | three | PASS
+356 | 1 | 0 | -4 | 0 | three | three | PASS
+357 | 1 | -3 | -1 | 3 | three | three | PASS
+358 | 1 | 1 | -6 | 0 | three | three | PASS
+359 | 1 | -2 | -5 | 6 | three | three | PASS
+360 | 1 | -5 | 2 | 8 | three | three | PASS
+361 | 1 | -3 | -10 | 0 | three | three | PASS
+362 | 1 | 5 | -1 | -5 | three | three | PASS
+363 | 1 | 2 | -8 | 0 | three | three | PASS
+364 | 1 | -1 | -9 | 9 | three | three | PASS
+365 | 1 | 3 | -4 | -12 | three | three | PASS
+366 | 1 | 5 | 8 | 4 | three | double | FAIL
+367 | 1 | 2 | 1 | 0 | three | double | FAIL
+368 | 1 | -1 | 0 | 0 | three | double | FAIL
+369 | 1 | -4 | 5 | -2 | three | double | FAIL
+370 | 1 | -7 | 16 | -12 | three | double | FAIL
+371 | 1 | -5 | -2 | 24 | three | three | PASS
+372 | 1 | -1 | -17 | -15 | three | three | PASS
+373 | 1 | 7 | 10 | 0 | three | three | PASS
+374 | 1 | 4 | -1 | -4 | three | three | PASS
+375 | 1 | 1 | -6 | 0 | three | three | PASS
+376 | 1 | 3 | 0 | -4 | three | double | FAIL
+377 | 1 | 0 | -3 | -2 | three | double | FAIL
+378 | 1 | -3 | 0 | 0 | three | double | FAIL
+379 | 1 | 1 | -5 | 3 | three | double | FAIL
+380 | 1 | -2 | -4 | 8 | three | double | FAIL
+381 | 1 | 0 | -7 | -6 | three | three | PASS
+382 | 1 | -3 | -4 | 0 | three | three | PASS
+383 | 1 | -6 | 5 | 0 | three | three | PASS
+384 | 1 | 2 | -13 | 10 | three | three | PASS
+385 | 1 | -1 | -14 | 24 | three | three | PASS
+386 | 1 | 8 | 21 | 18 | three | double | FAIL
+387 | 1 | 5 | 8 | 4 | three | double | FAIL
+388 | 1 | 2 | 1 | 0 | three | double | FAIL
+389 | 1 | -1 | 0 | 0 | three | double | FAIL
+390 | 1 | -4 | 5 | -2 | three | double | FAIL
+391 | 1 | -2 | -4 | 8 | three | double | FAIL
+392 | 1 | -5 | 3 | 9 | three | double | FAIL
+393 | 1 | -1 | -12 | 0 | three | three | PASS
+394 | 1 | -4 | -7 | 10 | three | three | PASS
+395 | 1 | 4 | -7 | -10 | three | three | PASS
+396 | 1 | 6 | 8 | 0 | three | three | PASS
+397 | 1 | 3 | -1 | -3 | three | three | PASS
+398 | 1 | 0 | -4 | 0 | three | three | PASS
+399 | 1 | -3 | -1 | 3 | three | three | PASS
+400 | 1 | 1 | -6 | 0 | three | three | PASS
+401 | 1 | 3 | 0 | -4 | three | double | FAIL
+402 | 1 | 0 | -3 | -2 | three | double | FAIL
+403 | 1 | -3 | 0 | 0 | three | double | FAIL
+404 | 1 | -6 | 9 | -4 | three | double | FAIL
+405 | 1 | -9 | 24 | -20 | three | double | FAIL
+406 | 1 | 4 | -11 | -30 | three | three | PASS
+407 | 1 | 8 | 19 | 12 | three | three | PASS
+408 | 1 | 5 | 6 | 0 | three | three | PASS
+409 | 1 | 2 | -1 | -2 | three | three | PASS
+410 | 1 | -1 | -2 | 0 | three | three | PASS
+411 | 1 | 1 | -2 | 0 | three | three | PASS
+412 | 1 | -2 | -1 | 2 | three | three | PASS
+413 | 1 | -5 | 6 | 0 | three | three | PASS
+414 | 1 | -1 | -9 | 9 | three | three | PASS
+415 | 1 | -4 | -4 | 16 | three | three | PASS
+416 | 1 | -2 | -13 | -10 | three | three | PASS
+417 | 1 | 6 | 5 | 0 | three | three | PASS
+418 | 1 | 3 | -4 | 0 | three | three | PASS
+419 | 1 | 0 | -7 | 6 | three | three | PASS
+420 | 1 | -3 | -4 | 12 | three | three | PASS
+
+=======================================
+KET QUA TEST CASE CHO CHUC NANG FN7
+=======================================
+TestCase | A | B | C | D | Expected | Actual | PASS/FAIL
+421 | 1.23456789012345 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+422 | 1e-3 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+423 | -2.3456789 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.923381, -0.923381, 0.000000 | PASS
+424 | 1.23456789012345 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+425 | 1e-3 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+426 | -2.3456789 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.923381, -0.923381, 0.000000 | PASS
+427 | 1.23456789012345 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+428 | 1e-3 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+429 | -2.3456789 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.923381, -0.923381, 0.000000 | PASS
+430 | 1.23456789012345 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+431 | 1e-3 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+432 | -2.3456789 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.923381, -0.923381, 0.000000 | PASS
+433 | 1.23456789012345 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+434 | 1e-3 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+435 | -2.3456789 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.923381, -0.923381, 0.000000 | PASS
+436 | 1.23456789012345 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+437 | 1e-3 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+438 | -2.3456789 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.923381, -0.923381, 0.000000 | PASS
+439 | 1.23456789012345 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+440 | 1e-3 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+441 | -2.3456789 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.923381, -0.923381, 0.000000 | PASS
+442 | 1.23456789012345 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+443 | 1e-3 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+444 | -2.3456789 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.923381, -0.923381, 0.000000 | PASS
+445 | 1.23456789012345 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+446 | 1e-3 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+447 | -2.3456789 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.923381, -0.923381, 0.000000 | PASS
+448 | 1.23456789012345 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+449 | 1e-3 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+450 | -2.3456789 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.923381, -0.923381, 0.000000 | PASS
+451 | 1.23456789012345 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+452 | 1e-3 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+453 | -2.3456789 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.923381, -0.923381, 0.000000 | PASS
+454 | 1.23456789012345 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+455 | 1e-3 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+456 | -2.3456789 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.923381, -0.923381, 0.000000 | PASS
+457 | 1.23456789012345 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+458 | 1e-3 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+459 | -2.3456789 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.923381, -0.923381, 0.000000 | PASS
+460 | 1.23456789012345 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+461 | 1e-3 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+462 | -2.3456789 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.923381, -0.923381, 0.000000 | PASS
+463 | 1.23456789012345 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+464 | 1e-3 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+465 | -2.3456789 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.923381, -0.923381, 0.000000 | PASS
+466 | 1.23456789012345 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+467 | 1e-3 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+468 | -2.3456789 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.923381, -0.923381, 0.000000 | PASS
+469 | 1.23456789012345 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+470 | 1e-3 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+471 | -2.3456789 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.923381, -0.923381, 0.000000 | PASS
+472 | 1.23456789012345 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+473 | 1e-3 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+474 | -2.3456789 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.923381, -0.923381, 0.000000 | PASS
+475 | 1.23456789012345 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+476 | 1e-3 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+477 | -2.3456789 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.923381, -0.923381, 0.000000 | PASS
+478 | 1.23456789012345 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+479 | 1e-3 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+480 | -2.3456789 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.923381, -0.923381, 0.000000 | PASS
+481 | 1.23456789012345 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+482 | 1e-3 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+483 | -2.3456789 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.923381, -0.923381, 0.000000 | PASS
+484 | 1.23456789012345 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+485 | 1e-3 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+486 | -2.3456789 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.923381, -0.923381, 0.000000 | PASS
+487 | 1.23456789012345 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+488 | 1e-3 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+489 | -2.3456789 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.923381, -0.923381, 0.000000 | PASS
+490 | 1.23456789012345 | 0.0000001 | 2 | -0.00000000001 | toFixed(6) | 0.000000 | PASS
+
+=======================================
+KET QUA TEST CASE CHO CHUC NANG FN8
+=======================================
+TestCase | A | B | C | D | Expected | Actual | PASS/FAIL
+491 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+492 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+493 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+494 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+495 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+496 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+497 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+498 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+499 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+500 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+501 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+502 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+503 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+504 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+505 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+506 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+507 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+508 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+509 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+510 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+511 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+512 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+513 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+514 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+515 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+516 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+517 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+518 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+519 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+520 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+521 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+522 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+523 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+524 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+525 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+526 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+527 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+528 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+529 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+530 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+531 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+532 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+533 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+534 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+535 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+536 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+537 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+538 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+539 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+540 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+541 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+542 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+543 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+544 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+545 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+546 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+547 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+548 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+549 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+550 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+551 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+552 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+553 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+554 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+555 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+556 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+557 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+558 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+559 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+560 | 1 | 0 | -1 | 0 | idempotent | [1,-1,-2.1211504774498136e-16] | PASS
+
+=======================================
+KET QUA TEST CASE CHO CHUC NANG FN9
+=======================================
+TestCase | A | B | C | D | Expected | Actual | PASS/FAIL
+561 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+562 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+563 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+564 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+565 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+566 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+567 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+568 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+569 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+570 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+571 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+572 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+573 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+574 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+575 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+576 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+577 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+578 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+579 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+580 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+581 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+582 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+583 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+584 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+585 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+586 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+587 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+588 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+589 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+590 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+591 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+592 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+593 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+594 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+595 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+596 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+597 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+598 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+599 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+600 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+601 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+602 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+603 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+604 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+605 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+606 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+607 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+608 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+609 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+610 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+611 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+612 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+613 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+614 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+615 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+616 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+617 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+618 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+619 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+620 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+621 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+622 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+623 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+624 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+625 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+626 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+627 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+628 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+629 | 1 | 2 | 3 | 4 | ui case | all filled | PASS
+630 |  | 2 | 3 | 4 | ui case | has empty input case | PASS
+
